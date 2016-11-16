@@ -7,3 +7,5 @@ notifications:
 otp_release:
   - 17.0
   - 17.1
+before_script:
+  - mix deps.get --only test
